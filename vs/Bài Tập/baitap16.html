@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Form đăng ký</h2>
+
+    <form action="">
+      <label for="hoten">Nhập họ và tên</label>
+      <br />
+      <input type="text" id="hoten" />
+      <br />
+      <label for="mk">Nhập mật khẩu</label>
+      <br />
+      <input type="password" id="mk" />
+      <br />
+      <label for="ns">Nhập ngày tháng năm sinh</label>
+      <br />
+      <input type="date" id="ns" />
+      <br />
+      <label for="tgian">Nhập giờ sinh:</label>
+      <br>
+      <input type="time" name="thoigion" id="tgian">
+      <br>
+      <label for="noidungdienvao">Giới thiệu bản thân</label>
+      <br />
+      <textarea
+        name="noidung"
+        rows="4"
+        cols="50"
+        id="noidungdienvao"
+      ></textarea>
+      <br />
+      <label for="">Lựa chọn Goat của bạn:</label>
+      <br />
+      <select name="noidung">
+        <option value="">-- Chọn Goat của bạn --</option>
+        <option value="anh7">Rolnado</option>
+        <option value="anh10">Messi</option>
+        <option value="nhaccuatui">Mbappe</option>
+      </select>
+      <br />
+      <label for="">Sở thích: </label>
+      <br />
+      <input type="checkbox" name="Valo" id="Valorant" />Valorant
+      <input type="checkbox" name="Lol" id="LoL" />LoL
+      <input type="checkbox" name="pup" id="PUBG" />PUBG
+      <br />
+      <label for="gioitinh">Chọn giới tính</label>
+      <br />
+      <input type="radio" name="gioitinh" value="Nam" />Nam
+      <input type="radio" name="gioitinh" value="Nu" />Nữ
+      <br />
+      <label for="file">Nhập file vô:</label>
+      <br />
+      <input type="file" name="file" id="file" />
+      <br>
+      <input type="hidden" name="hide" id="hide">
+      <br />
+      <input type="submit" value="Gửi đi" />
+      <input type="reset" value="Nhập lại" />
+      <input type="button" value="random button" />
+    </form>
+  </body>
+</html>
